@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "coordX": 55.7558,
+    "coordY": 37.6173,
+    "name": "Free Hunter*RU",
+    "contactInfo": "bob-hunter@bk.ru",
+    "website": "http://bobhunter.ru"
+  },
+  {
+    "id": 2,
+    "coordX": 60.1699,
+    "coordY": 24.9384,
+    "name": "FIN*CHERRYTAILS",
+    "contactInfo": "cherrytails@gmail.com",
+    "website": "http://cherrytails.fi/"
+  },
+  {
+    "id": 3,
+    "coordX": 51.9822,
+    "coordY": 4.7817,
+    "name": "Kuriles",
+    "contactInfo": "agnes.schouten@ziggo.nl",
+    "website": "https://www.kurilianbobtail.nl"
+  },
+  {
+    "id": 4,
+    "coordX": 52.5168,
+    "coordY": 6.0830,
+    "name": "Kuril Ainu",
+    "contactInfo": "tara.vanweers@hotmail.com",
+    "website": "catterykurilainu.nl"
+  }
+]
