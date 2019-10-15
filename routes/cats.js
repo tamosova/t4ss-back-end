@@ -15,9 +15,30 @@ router.get('/', async function(req, res) {
 router.get('/:id(\\d+)', async function(req, res) {
     res.json(
         await Cat.query()
-          .eager('[sire, dam, damOf, sireOf]')
+          .eager('[sire.[sire.^, dam.^], dam.[sire.^, dam.^], damOf, sireOf]')
           .where('id', req.params.id)
     );
+});
+
+router.put('/:id(\\d+)', async function(req, res) {
+    res.json(
+      await Cat.query()
+        .updateAndFetchById(req.params.id, req.body)
+    );
+});
+
+router.patch('/:id(\\d+)', async function (req, res) {
+    res.json(
+      await Cat.query()
+        .patchAndFetchById(req.params.id, req.body)
+    );
+});
+
+router.delete('/:id(\\d+)', async function(req, res) {
+    let success = await Cat.query()
+        .deleteById(req.params.id) === 1;
+
+    res.json({success});
 });
 
 /**
