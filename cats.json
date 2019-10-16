@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bosporus Free Hunter*RU",
+    "birthday": "2008-04-22T12:00:00.000Z",
+    "gender": "Male",
+    "colour": "a 03 23",
+    "sireId": "",
+    "damId": "",
+    "title": "SC. Fife",
+    "breed": "KBL",
+    "photoLink": "1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jewel SuperBob*RU",
+    "birthday": "2010-11-11T12:00:00.000Z",
+    "gender": "Female",
+    "colour": "ns 03 24",
+    "sireId": "1",
+    "damId": "",
+    "title": "SC Fife, NW'13",
+    "breed": "KBL",
+    "photoLink": "2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fortuna Free Hunter*RU",
+    "birthday": "2011-03-12T12:00:00.000Z",
+    "gender": "Female",
+    "colour": "f 01 21",
+    "sireId": "",
+    "damId": 1,
+    "title": "GIC FIFe",
+    "breed": "KBL",
+    "photoLink": "3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cherokee Free Hunter*RU",
+    "birthday": "2012-09-30T12:00:00.000Z",
+    "gender": "Female",
+    "colour": "d 03 24",
+    "sireId": "",
+    "damId": "",
+    "title": "SC Fife",
+    "breed": "KBL",
+    "photoLink": "4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Elizar Eridan",
+    "birthday": "",
+    "gender": "Male",
+    "colour": "a 03 22",
+    "sireId": "",
+    "damId": "",
+    "title": "",
+    "breed": "KBL",
+    "photoLink": ""
+  }
+]
